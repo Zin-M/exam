@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Four</title>
+	<script type="text/javascript">
+		function calculate(){
+			first_number=parseInt(document.myform.first_number.value);
+			second_number=parseInt(document.myform.second_number.value);
+			sum=first_number+second_number;
+			document.myform.sum.value=sum;
+		}
+	</script>
+</head>
+<body><form name="myform">
+	First Number<input type="number" name="first_number"><BR>
+	Second Number<input type="number" name="second_number"><br>
+	<input type="button" name="" value="calcula" onclick=
+	"calculate()"><br>
+	Sum<input type="number" name="sum">
+</form>
+
+</body>
+</html>
